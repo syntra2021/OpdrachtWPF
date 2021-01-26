@@ -1,0 +1,21 @@
+﻿<Window x:Class="OpdrachtWPF.Programma2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OpdrachtWPF"
+        mc:Ignorable="d"
+        Title="Programma2" Height="450" Width="800">
+    <Grid>
+        <Button Content="HOME" HorizontalAlignment="Left" Margin="54,332,0,0" VerticalAlignment="Top" Width="118" RenderTransformOrigin="-1.54,5.77" Height="41" Click="Home"/>
+        <Label Content="(a+b)²" HorizontalAlignment="Left" Margin="340,91,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.691,0.349"/>
+        <Label Content="A" HorizontalAlignment="Left" Margin="270,152,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.804,0.514"/>
+        <Label Content="B" HorizontalAlignment="Left" Margin="270,183,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.022,0.075"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="303,156,0,0" x:Name="txt_a"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="303,186,0,0" x:Name="txt_b"/>
+        <Label Content="Uitkomst:" HorizontalAlignment="Left" Margin="212,253,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="303,253,0,0" VerticalAlignment="Top" Width="120" x:Name="lbl_uitkomst"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="328,228,0,0" VerticalAlignment="Top" Width="75" Click="OK"/>
+
+    </Grid>
+</Window>

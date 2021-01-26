@@ -1,0 +1,25 @@
+﻿<Window x:Class="OpdrachtWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OpdrachtWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Programma 1" HorizontalAlignment="Left" Margin="172,79,0,0" VerticalAlignment="Top" Width="132" Click="Programma1"/>
+        <Button Content="Programma 2" HorizontalAlignment="Left" Margin="172,175,0,0" VerticalAlignment="Top" Width="132" Click="Programma2"/>
+        <Button Content="Programma 3" HorizontalAlignment="Left" Margin="172,279,0,0" VerticalAlignment="Top" Width="132" Click="Programma3"/>
+        <Button Content="Programma 4" HorizontalAlignment="Left" Margin="465,79,0,0" VerticalAlignment="Top" Width="132" Click="Programma4"/>
+        <Button Content="Programma 5" HorizontalAlignment="Left" Margin="465,175,0,0" VerticalAlignment="Top" Width="132" Click="Programma5"/>
+        <Button Content="Programma 6" HorizontalAlignment="Left" Margin="465,279,0,0" VerticalAlignment="Top" Width="132" Click="Programma6"/>
+
+    </Grid>
+    <Window.InputBindings>
+        <KeyBinding Command="ApplicationCommands.Close" Key="Esc" />
+    </Window.InputBindings>
+
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Close" Executed="CloseCommandBinding_Executed" />
+    </Window.CommandBindings>
+</Window>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="OpdrachtWPF.Programma4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OpdrachtWPF"
+        mc:Ignorable="d"
+        Title="Programma4" Height="450" Width="800">
+    <Grid>
+        <Button Content="HOME" HorizontalAlignment="Left" Margin="66,323,0,0" VerticalAlignment="Top" Width="126" RenderTransformOrigin="-0.57,0.475" Height="37" Click="Home"/>
+        <Label Content="Hoogte" HorizontalAlignment="Left" Margin="154,82,0,0" VerticalAlignment="Top"/>
+        <Label Content="Straal" HorizontalAlignment="Left" Margin="154,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.076,0.508"/>
+        <Label Content="procent gevuld" HorizontalAlignment="Left" Margin="154,144,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="295,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="txt_hoogte"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="295,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="txt_straal"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="295,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="txt_procent"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="295,192,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.201,0.486" Width="120" x:Name="lbl_uitkomst"/>
+        <Label Content="Aantal liter water" HorizontalAlignment="Left" Margin="154,192,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.183,0.427"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="295,241,0,0" VerticalAlignment="Top" Width="75" Click="OK"/>
+
+    </Grid>
+</Window>

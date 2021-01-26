@@ -1,0 +1,23 @@
+﻿<Window x:Class="OpdrachtWPF.Programma1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OpdrachtWPF"
+        mc:Ignorable="d"
+        Title="Programma1" Height="450" Width="800">
+    <Grid>
+        <Label Content="Getal 1" HorizontalAlignment="Left" Margin="286,69,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.039,-1.288" Width="68"/>
+        <Label Content="Getal 2" HorizontalAlignment="Left" Margin="286,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.039,-1.288" Width="68"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="359,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.462,-0.174" x:Name="txt_getal1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="359,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.462,-0.174" x:Name="txt_getal2"/>
+        <Button Content="Maal" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="225,173,0,0" Click="Maal"/>
+        <Button Content="Gedeeld" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="312,173,0,0" Click="Gedeeld"/>
+        <Button Content="Plus" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="398,173,0,0" Click="Plus"/>
+        <Button Content="Min" HorizontalAlignment="Left" Margin="478,173,0,0" VerticalAlignment="Top" Width="75" Click="Min"/>
+        <Label Content="Uitkomst" HorizontalAlignment="Left" Margin="359,235,0,0" VerticalAlignment="Top" Width="68" x:Name="lbl_uitkomst"/>
+        <Button Content="HOME" HorizontalAlignment="Left" Margin="79,323,0,0" VerticalAlignment="Top" Width="126" RenderTransformOrigin="-4.267,1.25" Height="36" Click="Home"/>
+
+
+    </Grid>
+</Window>

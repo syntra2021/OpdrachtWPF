@@ -1,0 +1,28 @@
+﻿<Window x:Class="OpdrachtWPF.Programma5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OpdrachtWPF"
+        mc:Ignorable="d"
+        Title="Programma5" Height="450" Width="800">
+    <Grid>
+        <Button Content="HOME" HorizontalAlignment="Left" Margin="66,323,0,0" VerticalAlignment="Top" Width="126" RenderTransformOrigin="-0.57,0.475" Height="37" Click="Home"/>
+        <Label Content="Lengte balk" HorizontalAlignment="Left" Margin="230,50,0,0" VerticalAlignment="Top"/>
+        <Label Content="breedte balk" HorizontalAlignment="Left" Margin="230,96,0,0" VerticalAlignment="Top"/>
+        <Label Content="hoogte balk" HorizontalAlignment="Left" Margin="230,140,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.627,3.423"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="354,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="txt_lengte"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="354,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="txt_breedte"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="354,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="txt_hoogte"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="354,245,0,0" VerticalAlignment="Top" Width="75" Click="OK"/>
+        <Label Content="Uitkomst:" HorizontalAlignment="Left" Margin="233,283,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="354,283,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.026,0.038" Width="120" x:Name="lbl_uitkomst"/>
+        <Label Content="dikte platen" HorizontalAlignment="Left" Margin="233,186,0,0" VerticalAlignment="Top" Width="68"/>
+        <ComboBox HorizontalAlignment="Left" Margin="354,186,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox" x:Name="cmb_diktePLaten">
+            <ComboBoxItem>8 mm</ComboBoxItem>
+            <ComboBoxItem Content="12 mm" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="15 mm" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+
+    </Grid>
+</Window>
